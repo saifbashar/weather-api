@@ -155,7 +155,12 @@ fetch(
         img.setAttribute('src', 'https://openweathermap.org/img/wn/01d@2x.png');
         body.setAttribute('id', 'clear-sky');
       }
+
       if (data.weather[0].description.includes('few clouds')) {
+        img.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
+        body.setAttribute('id', 'clear-sky');
+      }
+      if (data.weather[0].description.includes('overcast clouds')) {
         img.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
         body.setAttribute('id', 'clear-sky');
       }
