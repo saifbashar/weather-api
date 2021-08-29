@@ -34,7 +34,12 @@ cityBtn.addEventListener('click', () => {
   loadWeatherApiByCity(
     `https://api.openweathermap.org/data/2.5/weather?q=${cityInput.value}&appid=de67e2cac41cd36494503c7d9421af76&units=metric`
   ).then((x) => {
-    console.log(x);
+    // console.log(x);
+    if (x.name == null || x.cod == 404) {
+      alert('Enter a valid city');
+      cityInput.value = '';
+      return 0;
+    }
     search.textContent = '';
     const div = document.createElement('div');
     const img = document.createElement('img');
@@ -91,6 +96,7 @@ cityBtn.addEventListener('click', () => {
     `;
     search.appendChild(div);
   });
+  cityInput.value = '';
 });
 
 const loadWeatherApiByCity = async (url) => {
