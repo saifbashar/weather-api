@@ -66,6 +66,10 @@ cityBtn.addEventListener('click', () => {
       img.setAttribute('src', 'https://openweathermap.org/img/wn/11d@2x.png');
       body.setAttribute('id', 'thunderstorm');
     }
+    if (data.weather[0].description.includes('overcast')) {
+      img.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
+      body.setAttribute('id', 'clear-sky');
+    }
     if (x.weather[0].description.includes('snow')) {
       img.setAttribute('src', 'https://openweathermap.org/img/wn/13d@2x.png');
       body.setAttribute('id', 'snow');
@@ -160,7 +164,7 @@ fetch(
         img.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
         body.setAttribute('id', 'clear-sky');
       }
-      if (data.weather[0].description.includes('overcast clouds')) {
+      if (data.weather[0].description.includes('overcast')) {
         img.setAttribute('src', 'https://openweathermap.org/img/wn/02d@2x.png');
         body.setAttribute('id', 'clear-sky');
       }
