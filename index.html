@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather Api</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome kits -->
+    <script
+      src="https://kit.fontawesome.com/b1673043ec.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center">Weather Forecast</h1>
+      <div id="time"></div>
+      <div
+        id="flag"
+        class="d-flex justify-content-center align-items-center"
+      ></div>
+    </div>
+
+    <div id="weather-info" class="text-center"></div>
+    <div
+      class="d-flex flex-wrap flex-lg-nowrap container justify-content-around"
+    >
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="City Name"
+          aria-label="Recipient's username"
+          aria-describedby="button-addon2"
+          id="city-input"
+        />
+        <button class="btn btn-outline-secondary" type="button" id="city-btn">
+          Get Weather
+        </button>
+      </div>
+    </div>
+    <div id="search" class="text-center"></div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="./Javascript/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+#clear-sky {
+  background-image: url('https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c3VufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#scattered-clouds {
+  background-image: url('https://images.unsplash.com/photo-1598378028718-37a61e030860?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#broken-clouds {
+  background-image: url('https://images.unsplash.com/photo-1625859331400-ab70841244b4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGJyb2tlbiUyMGNsb3Vkc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#shower-rain {
+  background-image: url('https://images.unsplash.com/uploads/14116603688211a68546c/30f8f30b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2hvd2VyJTIwcmFpbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#rain {
+  background-image: url('https://images.unsplash.com/photo-1470432581262-e7880e8fe79a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fHJhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#thunderstorm {
+  background-image: url('https://images.unsplash.com/photo-1475116127127-e3ce09ee84e1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzR8fHJhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#snow {
+  background-image: url('https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c25vd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#mist {
+  background-image: url('https://images.unsplash.com/photo-1485236715568-ddc5ee6ca227?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWlzdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
